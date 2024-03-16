@@ -44,6 +44,8 @@ debug.sf.disable_backpressure=1
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 debug.sf.disable_gl_backpressure=1
+debug.hwui.renderer=skiagl
+
 
 
 # Radio
