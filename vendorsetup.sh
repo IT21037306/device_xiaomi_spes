@@ -19,7 +19,7 @@ rm -rf hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-21 hardware/xiaomi
 
 # Kernel & Vendor Sources
-git clone https://github.com/IT21037306/vendor_xiaomi_spes -b A14 vendor/xiaomi/spes
+git clone https://github.com/IT21037306/vendor_xiaomi_spes -b A14-Test vendor/xiaomi/spes
 git clone https://github.com/muralivijay/kernel_xiaomi_sm6225 kernel/xiaomi/sm6225
 
 # MiuiCamera
