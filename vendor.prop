@@ -124,6 +124,7 @@ ro.apk_verity.mode=2
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
 # Graphics
+ro.hwui.render_ahead=5
 debug.sf.auto_latch_unsignaled=true
 debug.renderengine.backend=skiaglthreaded
 debug.sf.latch_unsignaled=0
