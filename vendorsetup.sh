@@ -13,7 +13,7 @@ rm -rf hardware/google/pixel/kernel_headers/Android.bp
 rm -rf hardware/lineage/compat/Android.bp
 
 # Remove hardware/xiaomi (if exists)
-rm -rf hardware/xiaomi
+#rm -rf hardware/xiaomi
 
 # Clone hardware/xiaomi (clone latest)
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-21 hardware/xiaomi
