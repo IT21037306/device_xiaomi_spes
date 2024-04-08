@@ -130,6 +130,9 @@ ODM_MANIFEST_K7TN_FILES := $(DEVICE_PATH)/configs/hidl/manifest_k7tn.xml
 USE_OPENGL_RENDERER := true
 HWUI_COMPILE_FOR_PERF := true
 
+# IMS
+BOARD_USES_LEGACY_IMS_SEPOLICY := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_spes
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_spes
