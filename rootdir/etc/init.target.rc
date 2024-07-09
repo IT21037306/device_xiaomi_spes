@@ -234,7 +234,4 @@ on property:ro.boot.hwversion=*
     setprop vendor.boot.hwversion ${ro.boot.hwversion}
 
 on property:vendor.fps_hal.restartimes=max
-    stop vendor.fps_hal    
-
-# STOP EATING MY BATTERY
-    stop statsd
+    stop vendor.fps_hal
